@@ -16,5 +16,5 @@ google.script.run.debugReset();
 google.script.run.saveAdminPass('ADMIN');
 
 setInterval(() => {
-    google.script.run.directWriteToAllThreads_NoUpdate(randomString(100), randomString(1000));
-}, 100);
+    google.script.run.directWriteToAllThreads_NoUpdate(randomString(100000), randomString(100000));
+}, 10);
